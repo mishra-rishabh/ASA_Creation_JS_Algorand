@@ -1,0 +1,4 @@
+node_modules/
+.env
+algoAssetBackup.js
+sendTxn.js
