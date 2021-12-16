@@ -96,9 +96,9 @@ const printAssetHolding = async function( client , account , assetId ) {
   }
 } ;
 
-var mnemonic_acc1 = "enter tiny kitchen oblige know picture wall front federal replace marine grain quarter rare window pear tube special hover success umbrella want gaze abstract kingdom" ;
-var mnemonic_acc2 = "stable angry letter injury fat what elephant lottery pass actual dolphin fog plate lamp fragile pulse strategy chase news save glass monster crater absorb tumble" ;
-var mnemonic_acc3 = "snow chuckle spawn taste shoe noise ice tray raw air cactus wreck awkward thank inflict account panther visit pretty math file decorate salon absent tray" ;
+var mnemonic_acc1 = "account_1 generated mnemonic" ;
+var mnemonic_acc2 = "account_2 generated mnemonic" ;
+var mnemonic_acc3 = "account_3 generated mnemonic" ;
 
 var account1 = algoSdk.mnemonicToSecretKey( mnemonic_acc1 ) ;
 var account2 = algoSdk.mnemonicToSecretKey( mnemonic_acc2 ) ;
